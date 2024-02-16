@@ -4,55 +4,25 @@
 # n - кол-во элементов первого множества.
 # m - кол-во элементов второго множества.
 # Затем подаются элементы каждого множества через пробел в виде строки. ! Писать input() не надо
+
 # РЕШЕНИЕ
-
-# n, m = int, input().split()
-# set1 = list(int, input().split())
-# set2 = list(int, input().split())
+# var1 = '5 5'
+# var2 = '50 2 30 4 10'
+# var3 = '10 20 30 4 50'
 # common_numbers = []
-# for num1 in set1:
+# # Разделяем строки на отдельные числа и преобразуем их в множества
+# set_var2 = set(map(int, var2.split()))
+# set_var3 = set(map(int, var3.split()))
+# for num1 in set_var2:
 #     if num1 in common_numbers:
 #         continue
-#     for num2 in set2:
+#     for num2 in set_var3:
 #         if num1 == num2:
 #             common_numbers.append(num1)
 #             break
 # common_numbers.sort()
 # for num in common_numbers:
 #     print(num, end=' ')
-
-
-# var1 = '5 4' 
-# var2 = '1 3 5 4 9' 
-# var3 = '2 3 4 5' 
-# common_numbers = []
-# for num1 in var2:
-#     if num1 in common_numbers:
-#         continue
-#     for num2 in var3:
-#         if num1 == num2:
-#             common_numbers.append(num1)
-#             break
-# common_numbers.sort()
-# for num in common_numbers:
-#     print(num, end=' ')
-
-var1 = '5 5'
-var2 = '10 20 30 40 50'
-var3 = '10 20 30 40 50'
-# print(int(var2))
-print(type(var2))
-common_numbers = []
-for num1 in len(var2):
-    if num1 in common_numbers:
-        continue
-    for num2 in var3:
-        if num1 == num2:
-            common_numbers.append(num1)
-            break
-common_numbers.sort()
-for num in common_numbers:
-    print(num, end=' ')
 
 
 
