@@ -15,7 +15,7 @@ def show_main_menu() -> int:
 def show_contacts(phone_book: dict[int,(str)]):
     if phone_book:
         for contact in phone_book.items():
-            print(f"{u_id}. {contact[0]} | {contact[1]} | {contact[2]}")
+            print(f"{u_id:<3}. {contact[0]:<20} | {contact[1]:<20} | {contact[2]:<20}")
     else:
         show_message(text.empty_phone_book_error)
 
