@@ -10,11 +10,10 @@ def start_app():
             case 1:
                 model.open_phone_book()
                 view.show_message(text.phone_book_opened_successful)
-
             case 2:
                 pass
             case 3:
-                pass
+                view.show_contacts(model.phone_book)
             case 4:
                 pass
             case 5:

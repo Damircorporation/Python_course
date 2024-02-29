@@ -14,3 +14,5 @@ choice_main_menu_error = f"Нужно ввести число от 1 до {len(m
 phone_book_opened_successful = "Телефонная книга открыта успешно!"
 phone_book_saved_successful = "Телефонная книга сохранена успешно!"
 
+empty_phone_book_error = "Телефонная книга пуста или не  открыта!"
+

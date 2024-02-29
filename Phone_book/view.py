@@ -12,8 +12,15 @@ def show_main_menu() -> int:
             return int(choice)
         print(text.choice_main_menu_error)
 
+def show_contacts(phone_book: dict[int,(str)]):
+    if phone_book:
+        for contact in phone_book.items():
+            print(f"{u_id}. {contact[0]} | {contact[1]} | {contact[2]}")
+    else:
+        show_message(text.empty_phone_book_error)
+
 
 def show_message(message: str):
-    print("\n" + " =" * len(message))
+    print("\n" + "=" * len(message))
     print(message)
     print( " =" * len(message) + "\n")
