@@ -15,7 +15,8 @@ def start_app():
             case 3:
                 view.show_contacts(model.phone_book)
             case 4:
-                pass
+                new_contact = view.input_new_contact()
+                
             case 5:
                 pass
             case 6:

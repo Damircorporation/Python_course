@@ -14,8 +14,10 @@ def show_main_menu() -> int:
 
 def show_contacts(phone_book: dict[int,(str)]):
     if phone_book:
+        print("\n" + "=" * 71)
         for contact in phone_book.items():
-            print(f"{u_id:<3}. {contact[0]:<20} | {contact[1]:<20} | {contact[2]:<20}")
+            print(f"{u_id:>3}. {contact[0]:<20} | {contact[1]:<20} | {contact[2]:<20}")
+        print("=" * 71 + "\n")
     else:
         show_message(text.empty_phone_book_error)
 
@@ -23,4 +25,8 @@ def show_contacts(phone_book: dict[int,(str)]):
 def show_message(message: str):
     print("\n" + "=" * len(message))
     print(message)
-    print( " =" * len(message) + "\n")
+    print("=" * len(message) + "\n")
+
+def input_new_contact() -> list[str]:
+    return [input(message) for message in text.input_new_contact]
+
