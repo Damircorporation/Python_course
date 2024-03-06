@@ -4,7 +4,7 @@ import text
 def show_main_menu() -> int:
     for i, item in enumerate(text.main_menu):
         if i !=0:
-            print(f"\t{i}. {item}")
+            print(f'\t{i}. {item}')
         else:
             print(item)
     while True:
@@ -25,9 +25,9 @@ def show_contacts(phone_book: dict[int,(str)], error_message: str):
 
 
 def show_message(message: str):
-    print("\n" + "=" * len(message))
+    print('\n' + '=' * len(message))
     print(message)
-    print("=" * len(message) + "\n")
+    print('=' * len(message) + "\n")
 
 
 def input_data(message) -> list[str] | str:

@@ -1,6 +1,6 @@
 phone_book = {}
 path = 'phones.txt'
-SEPARATOR = ";"
+SEPARATOR = ';'
 
 
 def open_phone_book():
@@ -12,7 +12,15 @@ def open_phone_book():
 
 
 def save_phone_book():
-    pass
+    phone_book
+    data = []
+    for contact in phone_book.values():
+        data.append(SEPARATOR.join(contact))
+    data = '\n'.join(data)
+    with open(path, 'w', encoding='UTF-8') as file:
+        file.write(data)
+
+
 
 
 def _next_id():
@@ -24,11 +32,24 @@ def add_new_contact(new_contact: list[str]):
     phone_book
     phone_book[_next_id()] = new_contact
 
-def find_contact(search_word: str) -> dict[int, list[str]]:
-     phone_book
-     result = {}
-     for u_id, contact in phone_book.items():
-         if search_word in ' '.join(contact):
-             result[u_id] = contact
-             return result
 
+def find_contact(search_word: str) -> dict[int, list[str]]:
+    phone_book
+    result = {}
+    for u_id, contact in phone_book.items():
+        if search_word.lower() in ' '.join(contact).lower():
+            result[u_id] = contact
+    return result
+
+
+def edit_contact (u_id: int, edited_contact: list[str]):
+    phone_book
+    current_contact = phone_book[u_id]
+    for i in range(len(current_contact)):
+        current_contact[i] = edited_contact[i] if edited_contact[i] else current_contact[i]
+    phone_book[u_id] = current_contact
+    return current_contact[0]
+
+def delete_contact(u_id: int) -> str:
+    phone_book
+    return phone_book.pop(u_id)[0]
