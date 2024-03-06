@@ -14,9 +14,18 @@ choice_main_menu_error = f"Нужно ввести число от 1 до {len(m
 phone_book_opened_successful = "Телефонная книга открыта успешно!"
 phone_book_saved_successful = "Телефонная книга сохранена успешно!"
 
-empty_phone_book_error = "Телефонная книга пуста или не  открыта!"
+empty_phone_book_error = "Телефонная книга пуста или не открыта!"
 
 input_new_contact = ["Введите имя контакта: ",
                      "Введите номер контакта: ",
                      "Введите коммент для контакта: ",]
+
+input_search_word = 'Введите слово для поиска: '
+
+
+def new_contact_added_successful(name: str) -> str:
+    return f'Контакт "{name}" успешно добавлен!'
+
+def find_contact_no_result(word: str) -> str:
+    return f'Контакты содержащие "{word}" не найдены!'
 
