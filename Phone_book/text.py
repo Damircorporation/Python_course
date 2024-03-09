@@ -44,5 +44,5 @@ def edit_contact_successful(name) -> str:
     return f'Контакт "{name}" успешно изменен!'
 
 def delete_contact_successful(name) -> str:
-    return f'Контакт "{name}" успешно удален!'
+    return f'Контакт "{name}" успешно удален!Ура'
 
