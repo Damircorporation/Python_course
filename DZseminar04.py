@@ -39,13 +39,13 @@
 # находясь перед некоторым кустом заданной во входном файле грядки.
 
 # РЕШЕНИЕ
-# arr = [5, 2, 6, 4, 9, 2, 7, 3]
-# max_berry_count = 0
-# max_berry_position = -1
-# for i in range(len(arr)):
-#     current_berry_count = arr[i] + arr[(i+1) % len(arr)] + arr[(i-1) % len(arr)]
-#     if current_berry_count > max_berry_count:
-#         max_berry_count = current_berry_count
-#         max_berry_position = i
-# print("Максимальное количество собранных ягод:", max_berry_count)
-# print("Позиция куста, с которого собрано максимальное количество ягод:", max_berry_position)
+arr = [5, 2, 6, 4, 9, 2, 7, 3]
+max_berry_count = 0
+max_berry_position = -1
+for i in range(len(arr)):
+    current_berry_count = arr[i] + arr[(i+1) % len(arr)] + arr[(i-1) % len(arr)]
+    if current_berry_count > max_berry_count:
+        max_berry_count = current_berry_count
+        max_berry_position = i
+print("Максимальное количество собранных ягод:", max_berry_count)
+print("Позиция куста, с которого собрано максимальное количество ягод:", max_berry_position)
