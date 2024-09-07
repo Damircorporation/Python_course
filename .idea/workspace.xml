@@ -5,19 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daf8e525-19cb-496f-896b-656b526f4645" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/task_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZseminar04.py" beforeDir="false" afterPath="$PROJECT_DIR$/DZseminar04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/Seminar_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python_course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_course.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DZseminar01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DZseminar02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DZseminar03.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DZseminar04.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DZseminar05.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DZseminar06.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DZseminar07.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/phones.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -29,14 +48,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.DZ_seminar_1.executor": "Run",
+    "Python.Seminar_1.executor": "Run",
+    "Python.task_1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/user/Desktop/Вся учеба/Учеба/Python_course",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-98f27166c754-ba05f1cad1b1-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.21829.153" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
