@@ -5,20 +5,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="daf8e525-19cb-496f-896b-656b526f4645" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/Seminar_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python_course.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python_course.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_10/task_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_10/task_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_10/task_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_10/task_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_11/task_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_11/task_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_11/task_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_11/task_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_11/task_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_12/task_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_12/task_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_12/task_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_12/task_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_13/task_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_13/task_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_13/task_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_13/task_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_13/task_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_14/task_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_14/task_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_14/task_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_15/task_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_15/task_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_15/task_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_15/task_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_15/task_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_8.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_9.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_10/task_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_10/task_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_10/task_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_10/task_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_10/task_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_10/task_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_11/task_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_11/task_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_11/task_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_11/task_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_6/task_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_6/task_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_6/task_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_6/task_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_6/task_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_6/task_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_6/task_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_7/task_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_7/task_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_7/task_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_7/task_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_7/task_5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_7/task_6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_7/task_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_8/task_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_8/task_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_8/task_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_8/task_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_9/task_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_9/task_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_9/task_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZseminar01.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZseminar02.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZseminar03.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZseminar04.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZseminar05.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZseminar06.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/DZseminar07.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/phones.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/task_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NEW-seminar/Seminars/Seminar_1.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,20 +99,158 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.DZ_seminar_1.executor": "Run",
-    "Python.Seminar_1.executor": "Run",
-    "Python.task_1.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/user/Desktop/Вся учеба/Учеба/Python_course",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in task_1.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DZ_seminar_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DZ_seminar_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DZ_seminar_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DZ_seminar_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DZ_seminar_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Seminar_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Seminar_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Seminar_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Seminar_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Seminar_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Seminar_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Seminar_7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Seminar_8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_2 (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.task_7.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/Вся учеба/Учеба/Python_course&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\Вся учеба\Учеба\Python_course\NEW-seminar\DZ_Seminars\DZ_seminar_10" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.task_3">
+    <configuration name="task_2 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_course" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_15" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_15/task_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_course" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_11" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_11/task_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_course" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_15" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_15/task_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python_course" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_10" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_10/task_5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in task_1.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="Python_course" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_14" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_14/task_1.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.task_3" />
+        <item itemvalue="Python.task_2 (1)" />
+        <item itemvalue="Python tests.Python tests in task_1.py" />
+        <item itemvalue="Python.task_2" />
+        <item itemvalue="Python.task_5" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -88,5 +279,16 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.py" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
