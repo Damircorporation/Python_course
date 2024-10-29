@@ -43,6 +43,15 @@ ls -ali
 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет
 из этого репозитория.
 
+```sh 
+mkdir New_FinalHomeWorkPython
+mv human_friends ~/New_FinalHomeWorkPython
+cd New_FinalHomeWorkPython
+ls -ali
+```
+
+![](VirtualBox_Ubuntu-Linux_29_10_2024_21_36_55.png)
+
 4. Установить и удалить deb-пакет с помощью dpkg.
 
 5. Выложить историю команд в терминале ubuntu
