@@ -12,10 +12,22 @@
 Переименовать файл, дав ему новое имя (Друзья человека).
 
 ```sh 
-здесь будет код
+mkdir FinalHomeWorkPython
+cd FinalHomeWorkPython
+cat > home_animals
+cats
+dogs
+hamsters
+cat > pack_animals
+horse
+camel
+donkey
+cat home_animals pack_animals > animals
+cat animals
+mv animals human_friends
 ```
 
-![](slide_1.bmp)
+![](VirtualBox_Ubuntu-Linux_29_10_2024_20_52_43.png)
 
 2. Создать директорию, переместить файл туда.
 

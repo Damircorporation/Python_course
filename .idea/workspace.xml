@@ -4,75 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="daf8e525-19cb-496f-896b-656b526f4645" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_10/task_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_10/task_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_10/task_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_10/task_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_11/task_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_11/task_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_11/task_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_11/task_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_11/task_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_12/task_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_12/task_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_12/task_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_12/task_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_13/task_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_13/task_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_13/task_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_13/task_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_13/task_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_14/task_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_14/task_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_14/task_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_15/task_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_15/task_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_15/task_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_15/task_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_15/task_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_8.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/DZ_Seminars/DZ_seminar_9.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_10/task_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_10/task_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_10/task_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_10/task_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_10/task_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_10/task_6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_11/task_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_11/task_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_11/task_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_11/task_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_6/task_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_6/task_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_6/task_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_6/task_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_6/task_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_6/task_6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_6/task_7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_7/task_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_7/task_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_7/task_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_7/task_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_7/task_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_7/task_6.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_7/task_7.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_8/task_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_8/task_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_8/task_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_8/task_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_9/task_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_9/task_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NEW-seminar/Seminars/seminar_9/task_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NEW-seminar/Seminars/Seminar_1.py" beforeDir="false" />
-    </list>
+    <list default="true" id="daf8e525-19cb-496f-896b-656b526f4645" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
