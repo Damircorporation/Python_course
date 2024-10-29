@@ -27,9 +27,18 @@ cat animals
 mv animals human_friends
 ```
 
-![](VirtualBox_Ubuntu-Linux_29_10_2024_20_52_43.png)
+![](VirtualBox_Ubuntu-Linux_29_10_2024_21_02_54.png)
 
 2. Создать директорию, переместить файл туда.
+
+```sh 
+mkdir New_FinalHomeWorkPython
+mv human_friends ~/New_FinalHomeWorkPython
+cd New_FinalHomeWorkPython
+ls -ali
+```
+
+![](VirtualBox_Ubuntu-Linux_29_10_2024_21_36_55.png)
 
 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет
 из этого репозитория.
