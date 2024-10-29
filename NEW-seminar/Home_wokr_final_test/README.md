@@ -44,13 +44,16 @@ ls -ali
 из этого репозитория.
 
 ```sh 
-mkdir New_FinalHomeWorkPython
-mv human_friends ~/New_FinalHomeWorkPython
-cd New_FinalHomeWorkPython
-ls -ali
+sudo wget http://dev.mysql.com/get/mysql-apt-comfig_0.8.23-1_all.deb
+sudo dpkg -i mysql-apt-comfig_0.8.23-1_all.deb
+sudo apt-get update
+sudo apt-get install mysql-server
 ```
 
-![](VirtualBox_Ubuntu-Linux_29_10_2024_21_36_55.png)
+![](VirtualBox_Ubuntu-Linux_29_10_2024_22_50_17.png)
+
+![](VirtualBox_Ubuntu-Linux_29_10_2024_22_54_48.png)
+
 
 4. Установить и удалить deb-пакет с помощью dpkg.
 
