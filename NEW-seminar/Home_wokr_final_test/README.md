@@ -68,7 +68,7 @@ sudo dpkg -r nginx nginx-common
 
 5. Выложить историю команд в терминале ubuntu
 
-[Cсылка на историю команд](#History_Command_Ubuntu_Linax_Terminal.md)
+[Cсылка на историю команд](History_Command_Ubuntu_Linax_Terminal.md)
 
 
 
