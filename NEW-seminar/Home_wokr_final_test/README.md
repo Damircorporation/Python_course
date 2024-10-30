@@ -57,7 +57,21 @@ sudo apt-get install mysql-server
 
 4. Установить и удалить deb-пакет с помощью dpkg.
 
+```sh 
+wget -c http://ftp.ru.debian.org/debian/pool/main/n/nginx/nginx_1.22.1-9_amd64.deb
+sudo dpkg -i nginx_1.22.1-9_amd64.deb
+sudo apt-get install -f
+sudo dpkg -r nginx nginx-common
+```
+
+![](VirtualBox_Ubuntu-Linux_30_10_2024_21_17_12.png)
+
 5. Выложить историю команд в терминале ubuntu
+
+[Cсылка на историю команд](History_Command_Ubuntu_Linax_Terminal)
+
+
+
 
 6. Нарисовать диаграмму, в которой есть класс родительский класс, домашние
 животные и вьючные животные, в составы которых в случае домашних
