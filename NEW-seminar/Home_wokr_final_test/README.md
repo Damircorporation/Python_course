@@ -82,22 +82,181 @@ sudo dpkg -r nginx nginx-common
 7. В подключенном MySQL репозитории создать базу данных “Друзья
 человека”
 
+```sh 
+CREATE DATABASE Human_friends;
+```
+
 8. Создать таблицы с иерархией из диаграммы в БД
+
+```sh 
+DROP database IF EXISTS HumanFriends;
+CREATE database HumanFriends;
+USE HumanFriends;
+
+DROP TABLE IF EXISTS HumanFriends;
+CREATE TABLE HumanFriends (
+    id_human_friend INT AUTO_INCREMENT PRIMARY KEY,
+    type_human_friend VARCHAR(40)
+);
+
+DROP TABLE IF EXISTS Homeanimals;
+CREATE TABLE Homeanimals (
+    id_home_animal INT AUTO_INCREMENT PRIMARY KEY,
+    type_home_animal VARCHAR(40),
+    id_human_friend INT,
+    FOREIGN KEY (id_human_friend) REFERENCES HumanFriends(id_human_friend)
+);
+
+DROP TABLE IF EXISTS PackAnimals;
+CREATE TABLE PackAnimals (
+    id_pack_animal INT AUTO_INCREMENT PRIMARY KEY,
+    type_pack_animal VARCHAR(40),
+    id_human_friend INT,
+    FOREIGN KEY (id_human_friend) REFERENCES HumanFriends(id_human_friend)
+);
+
+DROP TABLE IF EXISTS Cats;
+CREATE TABLE Cats (
+    id_cat INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(40),
+    birth_day DATE,
+    commands TEXT,
+    id_home_animal INT,
+    FOREIGN KEY (id_home_animal) REFERENCES Homeanimals(id_home_animal)
+);
+
+DROP TABLE IF EXISTS Dogs;
+CREATE TABLE Dogs (
+    id_dog INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(40),
+    birth_day DATE,
+    commands TEXT,
+	id_home_animal INT,
+    FOREIGN KEY (id_home_animal) REFERENCES Homeanimals(id_home_animal)
+);
+
+DROP TABLE IF EXISTS Hamsters;
+CREATE TABLE Hamsters (
+    id_hamster INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(40),
+    birth_day DATE,
+    commands TEXT,
+	id_home_animal INT,
+    FOREIGN KEY (id_home_animal) REFERENCES Homeanimals(id_home_animal)
+);
+
+DROP TABLE IF EXISTS Horses;
+CREATE TABLE Horses (
+    id_horse INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(40),
+    birth_day DATE,
+    commands TEXT,
+    id_pack_animal INT,
+    FOREIGN KEY (id_pack_animal) REFERENCES PackAnimals(id_pack_animal)
+);
+
+DROP TABLE IF EXISTS Camels;
+CREATE TABLE Camels (
+    id_camel INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(40),
+    birth_day DATE,
+    commands TEXT,
+    id_pack_animal INT,
+    FOREIGN KEY (id_pack_animal) REFERENCES PackAnimals(id_pack_animal)
+);
+
+DROP TABLE IF EXISTS Donkeys;
+CREATE TABLE Donkeys (
+    id_donkey INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(40),
+    birth_day DATE,
+    commands TEXT,
+    id_pack_animal INT,
+    FOREIGN KEY (id_pack_animal) REFERENCES PackAnimals(id_pack_animal)
+);
+```
+
+![](Skrin_1.bmp)
+
 
 9. Заполнить низкоуровневые таблицы именами(животных), командами
 которые они выполняют и датами рождения
 
+```sh 
+INSERT INTO HumanFriends (type_human_friend) VALUES ('HomeAnimal'), ('PackAnimal');
+INSERT INTO HomeAnimals (type_home_animal, id_human_friend) VALUES ('Cat', 1), ('Dog', 1), ('Hamster', 1);
+INSERT INTO PackAnimals (type_pack_animal, id_human_friend) VALUES ('Horse', 2), ('Camel', 2), ('Donkey', 2);
+INSERT INTO Cats (name, birth_day, commands, id_home_animal) 
+VALUES
+('Рыжий', '2001-01-01', 'сидеть, работай', 1),
+('Черный', '2001-01-02', 'сидеть, лежать', 1),
+('Белый', '2001-01-03', 'сидеть, дарова', 1);
+INSERT INTO Dogs (name, birth_day, commands, id_home_animal) 
+VALUES 
+('Шарик', '2002-02-02', 'взять, умри', 2),
+('Кубик', '2002-02-03', 'взять, фас', 2),
+('Ромбик', '2002-02-04', 'взять, лежать', 2);
+INSERT INTO Hamsters (name, birth_day, commands, id_home_animal) 
+VALUES 
+('Обжора', '2003-03-03', 'спать', 3),
+('Лентяй', '2003-03-04', 'спать', 3),
+('Соня', '2003-03-05', 'спать', 3);
+INSERT INTO Horses (name, birth_day, commands, id_pack_animal) 
+VALUES 
+('Мустанг', '2004-04-04', 'Рысью', 1),
+('Чувак', '2004-04-05', 'Рысью', 1),
+('Фернандо', '2004-04-06', 'Рысью', 1);
+INSERT INTO Camels (name, birth_day, commands, id_pack_animal) 
+VALUES 
+('Губастый', '2005-05-05', 'пошёл', 2),
+('Носастый', '2005-05-06', 'пошёл', 2),
+('Горбатый', '2005-05-07', 'пошёл', 2);
+INSERT INTO Donkeys (name, birth_day, commands, id_pack_animal) 
+VALUES 
+('Иа', '2006-06-06', 'танцуй', 3),
+('Винни', '2006-06-07', 'танцуй', 3),
+('Пяточок', '2006-06-08', 'танцуй', 3);
+
+SELECT * FROM HumanFriends;
+SELECT * FROM HomeAnimals;
+SELECT * FROM PackAnimals;
+SELECT * FROM Cats;
+SELECT * FROM Dogs;
+SELECT * FROM Hamsters;
+SELECT * FROM Horses;
+SELECT * FROM Camels;
+SELECT * FROM Donkeys;
+```
+
+![](Skrin_2.bmp)
+
 10. Удалив из таблицы верблюдов, т.к. верблюдов решили перевезти в другой
 питомник на зимовку. Объединить таблицы лошади, и ослы в одну таблицу.
+
+```sh 
+
+```
 
 11. Создать новую таблицу “молодые животные” в которую попадут все
 животные старше 1 года, но младше 3 лет и в отдельном столбце с точностью
 до месяца подсчитать возраст животных в новой таблице
 
+```sh 
+
+```
+
 12. Объединить все таблицы в одну, при этом сохраняя поля, указывающие на
 прошлую принадлежность к старым таблицам.
 
+```sh 
+
+```
+
 13. Создать класс с Инкапсуляцией методов и наследованием по диаграмме.
+
+```sh 
+
+```
 
 14. Написать программу, имитирующую работу реестра домашних животных.
 В программе должен быть реализован следующий функционал:
