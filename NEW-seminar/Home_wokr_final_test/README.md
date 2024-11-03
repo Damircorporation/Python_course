@@ -190,32 +190,32 @@ INSERT INTO Cats (name, birth_day, commands, id_home_animal)
 VALUES
 ('Рыжий', '2001-01-01', 'сидеть, работай', 1),
 ('Черный', '2001-01-02', 'сидеть, лежать', 1),
-('Белый', '2001-01-03', 'сидеть, дарова', 1);
+('Белый', '2023-01-03', 'сидеть, дарова', 1);
 INSERT INTO Dogs (name, birth_day, commands, id_home_animal) 
 VALUES 
 ('Шарик', '2002-02-02', 'взять, умри', 2),
 ('Кубик', '2002-02-03', 'взять, фас', 2),
-('Ромбик', '2002-02-04', 'взять, лежать', 2);
+('Ромбик', '2023-02-04', 'взять, лежать', 2);
 INSERT INTO Hamsters (name, birth_day, commands, id_home_animal) 
 VALUES 
 ('Обжора', '2003-03-03', 'спать', 3),
 ('Лентяй', '2003-03-04', 'спать', 3),
-('Соня', '2003-03-05', 'спать', 3);
+('Соня', '2023-03-05', 'спать', 3);
 INSERT INTO Horses (name, birth_day, commands, id_pack_animal) 
 VALUES 
-('Мустанг', '2004-04-04', 'Рысью', 1),
-('Чувак', '2004-04-05', 'Рысью', 1),
-('Фернандо', '2004-04-06', 'Рысью', 1);
+('Мустанг', '2024-04-04', 'Рысью', 1),
+('Чувак', '2022-04-05', 'Голопом', 1),
+('Фернандо', '2004-04-06', 'Улыбнись', 1);
 INSERT INTO Camels (name, birth_day, commands, id_pack_animal) 
 VALUES 
-('Губастый', '2005-05-05', 'пошёл', 2),
-('Носастый', '2005-05-06', 'пошёл', 2),
+('Губастый', '2022-05-05', 'пошёл', 2),
+('Носастый', '2023-05-06', 'пошёл', 2),
 ('Горбатый', '2005-05-07', 'пошёл', 2);
 INSERT INTO Donkeys (name, birth_day, commands, id_pack_animal) 
 VALUES 
 ('Иа', '2006-06-06', 'танцуй', 3),
-('Винни', '2006-06-07', 'танцуй', 3),
-('Пяточок', '2006-06-08', 'танцуй', 3);
+('Винни', '2024-06-07', 'ко мне', 3),
+('Пяточок', '2023-06-08', 'В атаку!', 3);
 
 SELECT * FROM HumanFriends;
 SELECT * FROM HomeAnimals;
@@ -228,14 +228,25 @@ SELECT * FROM Camels;
 SELECT * FROM Donkeys;
 ```
 
-![](skrin_2.bmp)
+![](Skrin_2.bmp)
 
-10. Удалив из таблицы верблюдов, т.к. верблюдов решили перевезти в другой
+10. Удалить из таблицы верблюдов, т.к. верблюдов решили перевезти в другой
 питомник на зимовку. Объединить таблицы лошади, и ослы в одну таблицу.
 
 ```sh 
+SET SQL_SAFE_UPDATES = 0;
+DELETE FROM Camels;
+SELECT * FROM Camels;
 
+DROP TABLE IF EXISTS HorsesAndDonkeys;
+CREATE TABLE HorsesAndDonkeys AS
+SELECT id_horse AS id, name, birth_day, commands, 'Horse' AS type FROM Horses
+UNION
+SELECT id_donkey AS id, name, birth_day, commands, 'Donkey' AS type FROM Donkeys;
+SELECT * FROM HorsesAndDonkeys;
 ```
+
+![](Skrin_3.bmp)
 
 11. Создать новую таблицу “молодые животные” в которую попадут все
 животные старше 1 года, но младше 3 лет и в отдельном столбце с точностью
