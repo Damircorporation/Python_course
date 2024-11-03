@@ -272,8 +272,17 @@ SELECT * FROM YoungAnimals;
 прошлую принадлежность к старым таблицам.
 
 ```sh 
-
+DROP TABLE IF EXISTS AllAnimals;
+CREATE TABLE AllAnimals AS
+SELECT id_cat AS id, name, birth_day, commands, 'Cat' AS type FROM Cats UNION
+SELECT id_dog AS id, name, birth_day, commands, 'Dog' AS type FROM Dogs UNION
+SELECT id_hamster AS id, name, birth_day, commands, 'Hamster' AS type FROM Hamsters UNION
+SELECT id AS id, name, birth_day, commands, type FROM HorsesAndDonkeys UNION
+SELECT id AS id, name, birth_day, commands, type FROM YoungAnimals;
+SELECT * FROM AllAnimals;
 ```
+
+![](Skrin_5.bmp)
 
 13. Создать класс с Инкапсуляцией методов и наследованием по диаграмме.
 
