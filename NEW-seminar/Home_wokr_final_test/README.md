@@ -253,8 +253,20 @@ SELECT * FROM HorsesAndDonkeys;
 до месяца подсчитать возраст животных в новой таблице
 
 ```sh 
+DROP TABLE IF EXISTS YoungAnimals;
+CREATE TABLE YoungAnimals AS
+SELECT id, name, birth_day, commands, type, TIMESTAMPDIFF(MONTH, birth_day, CURDATE()) AS age_in_months
+FROM (
+    SELECT id_cat AS id, name, birth_day, commands, 'Cat' AS type FROM Cats UNION ALL
+    SELECT id_dog AS id, name, birth_day, commands, 'Dog' AS type FROM Dogs UNION ALL
+    SELECT id_hamster AS id, name, birth_day, commands, 'Hamster' AS type FROM Hamsters UNION ALL
+    SELECT id AS id, name, birth_day, commands, type FROM HorsesAndDonkeys AS AllAnimals
+WHERE TIMESTAMPDIFF(MONTH, birth_day, CURDATE()) BETWEEN 12 AND 36;
 
+SELECT * FROM YoungAnimals;
 ```
+
+![](Skrin_4.bmp)
 
 12. Объединить все таблицы в одну, при этом сохраняя поля, указывающие на
 прошлую принадлежность к старым таблицам.
