@@ -28,6 +28,6 @@ def deploy():
 
 
 if deploy():
-    print('Yes yes')
+    print('Деплой успешен')
 else:
-    print('fail')
+    print('Ошибка деплоя')
