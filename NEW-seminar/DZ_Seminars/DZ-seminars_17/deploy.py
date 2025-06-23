@@ -28,6 +28,6 @@ def deploy():
 
 
 if deploy():
-    print('Yes')
+    print('Yes yes')
 else:
     print('fail')
