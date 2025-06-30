@@ -74,7 +74,7 @@ def test_add_post(site, x_selector1, x_selector2, btn_selector, create_btn, post
     save_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, post_save_btn)))
     save_button.click()
 
-    # Ждем, пока заголовок нового поста не станет видимым, чтобы проверить, что пост сохранился
+    # Ждем, пока заголовок нового поста не станет видимым, чтобы проверить, что наш пост сохранился
     saved_post_title = wait.until(
         EC.presence_of_element_located((By.XPATH, f"//h1[text()='{post_title}']"))
     )
