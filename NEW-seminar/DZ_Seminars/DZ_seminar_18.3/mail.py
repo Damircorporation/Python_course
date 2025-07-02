@@ -4,8 +4,8 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
 
-fromaddr = "vapsan@gmail.com"
-toaddr = "vapsan@list.ru"
+fromaddr = "Damir@gmail.com"
+toaddr = "Damir@list.ru"
 mypass = "1111111111"
 reportname = "report.html"
 
